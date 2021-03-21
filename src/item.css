@@ -1,0 +1,31 @@
+.main{
+    min-width: 20rem;
+    max-width: 20rem;
+    margin-right: 3rem;
+    margin-top: 3rem;
+    background-image: linear-gradient(100deg,#96deda , #50c9c3);
+    color:#424242;
+    position: relative;
+    padding-bottom: 1.5rem;
+    overflow-wrap: break-word;
+
+
+}
+
+.del-btn{
+    position: absolute;
+    color: rgb(255,0,0,.9);
+    bottom: .5rem;
+    right: .5rem;
+}
+.item-name{
+    font-size:2rem;
+    text-transform: capitalize;
+}
+
+@media(max-width:528px){
+    .main{
+        width: 100%;
+    }
+
+}
